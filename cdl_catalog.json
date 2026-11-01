@@ -1,0 +1,104 @@
+{
+  "items": {
+    "coffee-0": {
+      "name": "CAFÉ 18 — HUILA",
+      "price": 65,
+      "category": "hot"
+    },
+    "coffee-1": {
+      "name": "EXPRESIONES BOURBON AJÍ",
+      "price": 70,
+      "category": "hot"
+    },
+    "coffee-2": {
+      "name": "SUDÁN RUMÉ — UBA",
+      "price": 70,
+      "category": "hot"
+    },
+    "coffee-3": {
+      "name": "CAFÉ ESTELAR — LOTE 2326",
+      "price": 85,
+      "category": "hot"
+    },
+    "coffee-4": {
+      "name": "WUSH WUSH",
+      "price": 85,
+      "category": "hot"
+    },
+    "cold-lumina": {
+      "name": "Lumina",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-sakura": {
+      "name": "Sakura",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-cairo": {
+      "name": "Cairo",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-smoke": {
+      "name": "Smoke",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-apapacho": {
+      "name": "Apapacho",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-ambar": {
+      "name": "Ambar",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-goodguy": {
+      "name": "Goodguy",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-ofrenda": {
+      "name": "Ofrenda",
+      "price": 150,
+      "category": "cold"
+    },
+    "cold-lamento": {
+      "name": "Lamento",
+      "price": 120,
+      "category": "cold"
+    },
+    "cold-berrywise": {
+      "name": "Berrywise",
+      "price": 120,
+      "category": "cold"
+    },
+    "thermal-0": {
+      "name": "BOURBON SIDRA — DIWAN",
+      "price": 150,
+      "category": "thermal"
+    },
+    "thermal-1": {
+      "name": "MARACATURRA",
+      "price": 150,
+      "category": "thermal"
+    },
+    "thermal-2": {
+      "name": "GEISHA",
+      "price": 150,
+      "category": "thermal"
+    },
+    "thermal-3": {
+      "name": "LOHAS COMPETENCIA",
+      "price": 150,
+      "category": "thermal"
+    }
+  },
+  "methods": {
+    "filter": 30,
+    "espresso": 20,
+    "milk": 40
+  }
+}

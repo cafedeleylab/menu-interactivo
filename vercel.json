@@ -1,0 +1,35 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "builds": [
+    {
+      "src": "api.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.webp",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "order-config.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "THIRD-PARTY.txt",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api.py?__cdl_path=$1"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
+}
